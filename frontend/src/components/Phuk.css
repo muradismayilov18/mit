@@ -2,169 +2,247 @@
 
 
 .roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
-
-
-
-
-
-.card{
-    background-color: #171717;
-    margin-top: 30px;
-    border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.card:hover{
-    background-color: #1f1f1f;
-    margin-top: 30px;
-    border-radius: 20px;
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-.phuk{
-    background-color: #000000;
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.text-phuk h1{
-    color: #fff;
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+
+
+.card {
+  background-color: #171717;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.card3 {
+  background-color: #171717;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.card:hover {
+  background-color: #1f1f1f;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.phuk {
+  background-color: #000000;
+  padding: 20px 20px 20px 20px;
+}
+
+.card-home{
+  padding-left: 17px;
+}
+
+
+.text-phuk h1 {
+  color: #fff;
+}
+
+.image_cover {
+  object-fit: cover;
+  width: 100.5%;
+  max-width: 101%;
+  height: 100%;
+  position: absolute;
+  inset: 0%;
 }
 
 .span {
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(158deg, #00e5d1 3%, #2577f9 99%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    display: inline;
-    font-size: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(158deg, #00e5d1 3%, #2577f9 99%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline;
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .home_aspects_card_number {
-    color: #0000;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #969696;
-    margin-bottom: -1.5rem;
-    font-size: 6rem;
-    font-weight: 600;
-    line-height: 100%;
-    padding-bottom: 35px;
+  color: #0000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #969696;
+  margin-bottom: -1.5rem;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 100%;
+  padding-bottom: 35px;
 }
 
-.card-img, .card-img-top {
-    border-top-left-radius: var(--bs-card-inner-border-radius);
-    border-top-right-radius: var(--bs-card-inner-border-radius);
-    padding-top: 25px;
+.card-img,
+.card-img-top {
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);
+  padding-top: 25px;
 }
 
 .text-color-grey {
-    padding-top: 25px;
-    color: #525151;
+  padding-top: 25px;
+  color: #525151;
 }
 
 .span_gradient {
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(158deg, #00e5d1 3%, #2577f9 99%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    display: inline;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(158deg, #00e5d1 3%, #2577f9 99%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline;
 }
 
 .span_gradient {
-    color: #fff;
-    font-size: 2.5rem;
-    font-weight: 500;
-    line-height: 100%;
-    
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 100%;
+
 }
 
 
 .card {
-    background-color: #171717;
-    margin-top: 30px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 500px; /* Minimum yüksekliği belirtiyoruz */
+  background-color: #171717;
+  margin-top: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px;
+  /* Minimum yüksekliği belirtiyoruz */
 }
 
 .card-body {
-    flex-grow: 1; /* Kart gövdesinin boş alanı doldurmasını sağlıyoruz */
+  flex-grow: 1;
+  /* Kart gövdesinin boş alanı doldurmasını sağlıyoruz */
 }
 
 .card-img-top {
-    padding-top: 25px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    max-height: 300px; /* Resimlerin boyutunu da sabit tutuyoruz */
-    object-fit: cover;
+  padding-top: 25px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  max-height: 300px;
+  /* Resimlerin boyutunu da sabit tutuyoruz */
+  object-fit: cover;
+}
+
+.card-img-top {
+  padding-top: 25px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  border-top: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.button-group {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.button-group .buttonblue {
+  pointer-events: auto;
+  color: #fff;
+  text-align: center;
+  letter-spacing: .03125rem;
+  cursor: pointer;
+  background-color: #000;
+  background-image: radial-gradient(circle at 0 0, #25a6f9, #244cf8);
+  border: 1px solid #80b8fa;
+  border-bottom-style: none;
+  border-radius: 100px;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  height: 2.75rem;
+  padding: 0 1.8125rem .05rem;
+  font-size: .9375rem;
+  font-weight: 300;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  overflow: hidden;
 }
