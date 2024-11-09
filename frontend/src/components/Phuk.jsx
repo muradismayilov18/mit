@@ -49,12 +49,12 @@ const Phuk = () => {
                         </div>
                     </div>
                 </div>
-                <div className="button-groups flex-align-center">
-                    <a href="" className="buttonblue"> See our plans </a>
-                    <a href="" className="buttonwhite"> Unique project? </a>
-                </div>
+                <div className="button-group pb-5">
+                <a href="" className="buttonblue roboto-bold"> See our plans </a>
+                <a href="" className="buttonwhile roboto-bold"> Get in touch</a>
             </div>
-
+            </div>
+            
         </div>
     )
 }

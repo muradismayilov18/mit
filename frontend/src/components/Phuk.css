@@ -218,10 +218,11 @@ a{
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   flex-flow: wrap;
-  justify-content: flex-start;
+  justify-content: center; /* Butonları ortalar */
   align-items: center;
   display: flex;
 }
+
 
 .button-group .buttonblue {
   pointer-events: auto;
@@ -233,6 +234,75 @@ a{
   background-image: radial-gradient(circle at 0 0, #25a6f9, #244cf8);
   border: 1px solid #80b8fa;
   border-bottom-style: none;
+  border-radius: 100px;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  height: 2.75rem;
+  padding: 0 1.8125rem .05rem;
+  font-size: .9375rem;
+  font-weight: 300;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.button-group .buttonblue:hover {
+  pointer-events: auto;
+  color: #fff;
+  text-align: center;
+  letter-spacing: .03125rem;
+  cursor: pointer;
+  background-color: #000;
+  background-image: radial-gradient(circle at 0 0, #52bafb, #5a78ff);
+  border: 1px solid #80b8fa;
+  border-bottom-style: none;
+  border-radius: 100px;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  height: 2.75rem;
+  padding: 0 1.8125rem .05rem;
+  font-size: .9375rem;
+  font-weight: 300;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.button-group .buttonwhile {
+  pointer-events: auto;
+  color: #000000;
+  text-align: center;
+  letter-spacing: .03125rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #80b8fa;
+  border-bottom-style: none;
+  border-radius: 100px;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  height: 2.75rem;
+  padding: 0 1.8125rem .05rem;
+  font-size: .9375rem;
+  font-weight: 300;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.button-group .buttonwhile:hover {
+  pointer-events: auto;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: .03125rem;
+  cursor: pointer;
+  background-color: #000000;
+  border: 1px solid #ffffff;
   border-radius: 100px;
   flex: none;
   justify-content: center;

@@ -1,12 +1,13 @@
 import React from 'react'
 import Phuk from '../components/phuk'
-import Navbar from '../components/Navbar'
+import Imagination from '../components/Imagination'
+
 
 const Home = () => {
   return (
     <>
-    <Navbar/>
     <Phuk/>
+    <Imagination/>
     </>
   )
 }
